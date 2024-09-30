@@ -1,3 +1,4 @@
+<<<<<<< HEAD:game.css
 *{
     padding:0rem;
     margin:0rem
@@ -99,4 +100,107 @@ header{
     html{
         font-size:40%
     }
+=======
+*{
+    padding:0rem;
+    margin:0rem
+}
+
+html{
+    font-size:62.5%
+}
+body{
+    background-color: bisque;
+    height: 110rem;
+}
+header{
+    font-size: 5rem;
+    text-transform: capitalize;
+    font-family: arial;
+    text-align: center;
+    background-color: black;
+    color:red
+}
+#game{
+    height: 40rem;
+    width: 80rem;
+    border:groove black 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    margin-top:3rem;
+    margin-left:37rem;
+    overflow: hidden;
+    background-color: yellow;
+}
+.gp{
+    height: 23rem;
+    width:23rem;
+    border-radius: 100rem;
+    object-fit:cover;
+    cursor: pointer;
+}
+.gp:hover{
+    box-shadow: 0.2rem  0.2rem  0.5rem black;
+}
+.score{
+    display: flex;
+    justify-content: center;
+    gap:30rem;
+    padding-top:4rem;
+    margin-left:34rem;
+    margin-top:10rem;
+    background-color: rgb(75, 232, 141);
+    width:90rem;
+    height: 30rem;
+}
+.player,.computer{
+     font-size:5rem;
+     font-weight: bold;
+     text-align: center;
+     text-transform: capitalize;
+     
+}
+.player{
+    width:45rem;
+    margin-left:-15rem
+}
+
+#msg{
+    margin-top:3rem;
+    margin-left:-50rem;
+    background-color: yellow;
+    font-size:6rem;
+    border:solid black 0.3rem;
+    width:65rem;
+    overflow: hidden;
+}
+#data{
+        position: absolute;
+        margin-left:-43rem;
+        margin-top:-10rem;
+        color:white;
+        font-size:4rem;
+        text-shadow:0.1rem 0.1rem 0.1rem black
+}
+#data{
+    background-color: red;
+    padding:1rem;
+    margin-top:-15rem;
+    width:40rem;
+    height:12rem
+}
+#pl-score{
+    font-size:7rem
+}
+#com-score{
+    font-size:7rem
+}
+
+@media(max-width:998px){
+    html{
+        font-size:40%
+    }
+>>>>>>> 2df6027080154382e76fb1539fa6a4deb912955d:rock paper sisor game/game.css
 }
